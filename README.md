@@ -4,5 +4,5 @@ This is a controller for adressable leds. It's made using a custom PCB for ESP32
 
 # Known issues in this version:
 
-- PCB should be directly connected from TX to RX, without adapter.
+- There should be a direct connection from TX to RX, without the adapter.
 - Analog inputs, or at least Envelope, should be connected to a port with ADC1. (ADC2 does not work with WiFi ON!!).
